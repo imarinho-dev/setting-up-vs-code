@@ -2,47 +2,27 @@
 
 ## Themes
 
-### Dracula Official
+### Ayu
 
-Official Dracula Theme. A dark theme for many editors, shells, and more.
-
-Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
-
-`ext install dracula-theme.theme-dracula`
-
-[Website](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
-
-### Material Icon Theme
-
-Material Design Icons for Visual Studio Code
+A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.
 
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
-`ext install PKief.material-icon-theme`
+`ext install ayu`
 
-[Website](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+Then Set File Icon Theme as Ayu
+
+[Website](https://github.com/dempfi/ayu)
 
 ## Plugins
 
-### Babel JavaScript
-
-VSCode syntax highlighting for today's JavaScript
-
-Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
-
-`ext install mgmcdermott.vscode-language-babel`
-
-[Website](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
-
 ### Bracket Pair Colorizer
 
-A customizable extension for colorizing matching brackets
+A VS Code extension that gives you a simple command to quickly toggle the global “Bracket Pair Colorization” setting added in VS Code v1.60.
 
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
-`ext install CoenraadS.bracket-pair-colorizer`
-
-[Website](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+`ext install 'Bracket Pair Colorization'`
 
 ### Code Runner
 
@@ -83,16 +63,6 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 `ext install EditorConfig.EditorConfig`
 
 [Website](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-
-### ES7 React/Redux/GraphQL/React-Native snippets
-
-Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax
-
-Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
-
-`ext install dsznajder.es7-react-js-snippets`
-
-[Website](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 
 ### ESLint
 
@@ -144,54 +114,51 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 
 [Website](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
+### Prettier ESLint
+
+Code formatter using prettier
+
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+`ext install rvest.vs-code-prettier-eslint`
+
+[Website](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)
+
 ## Personal settings
 
 ```
 
 {
-	"workbench.colorTheme": "Dracula",
-	"workbench.iconTheme": "material-icon-theme",
 	"editor.fontSize": 16,
 	"editor.lineHeight": 24,
 	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
 	"editor.rulers": [80, 120],
 	"editor.formatOnSave": true,
-	"terminal.integrated.shell.osx": "/bin/zsh",
-	"terminal.integrated.fontSize": 14,
 	"editor.renderLineHighlight": "gutter",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.quickSuggestions": {
 		"other": true,
 		"comments": false,
 		"strings": true
 	},
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		// For ESLint
+		"source.fixAll.eslint": true
+	},
+	"prettier.useTabs": true,
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.fontSize": 14,
+	"explorer.compactFolders": false,
 	"[html]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"[rust]": {
-		"editor.defaultFormatter": "rust-lang.rust",
-		"editor.formatOnPaste": true,
-		"editor.formatOnSave": true
-	},
-
-	"editor.codeActionsOnSave": {
-		// For ESLint
-		"source.fixAll.eslint": true
-	},
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact"
-	},
-
-	"prettier.packageManager": "yarn",
-	"prettier.jsxSingleQuote": true,
-	"prettier.singleQuote": true,
-	"prettier.useTabs": true,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"explorer.compactFolders": false
+	"workbench.colorTheme": "Ayu Dark",
+	"workbench.iconTheme": "ayu",
+	"editor.bracketPairColorization.enabled": true
 }
 
 ```
