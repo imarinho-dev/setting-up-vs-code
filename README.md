@@ -46,6 +46,16 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 
 [Website](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent)
 
+### Code Spell Checker
+
+A basic spell checker that works well with code and documents.
+
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+`ext install streetsidesoftware.code-spell-checker`
+
+[Website](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
 ### Bracket Pair Colorizer
 
 A VS Code extension that gives you a simple command to quickly toggle the global “Bracket Pair Colorization” setting added in VS Code v1.60.
