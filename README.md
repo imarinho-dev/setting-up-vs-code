@@ -26,6 +26,26 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 
 [Website](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
+### Pylint
+
+A Visual Studio Code extension with support for the pylint linter.
+
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+`ext install Pylint`
+
+[Website](https://github.com/microsoft/vscode-pylint)
+
+### Black Formatter
+
+A Visual Studio Code extension with support for the black formatter. The extension ships with black=23.3.0.
+
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+`ext install ms-python.black-formatter`
+
+[Website](https://github.com/microsoft/vscode-pylint)
+
 ### Indent-Rainbow
 
 This extension colorizes the indentation in front of your text, alternating four different colors on each step. Some may find it helpful in writing code for Python, Nim, Yaml, and probably even filetypes that are not indentation dependent.
