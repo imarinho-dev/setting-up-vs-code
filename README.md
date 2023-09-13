@@ -76,6 +76,16 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 
 [Website](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
+### Codeium
+
+Codeium is the modern coding superpower, a free code acceleration toolkit built on cutting edge AI technology. Currently, Codeium provides autocomplete, chat, and search capabilities in 70+ languages, with lightning fast speeds and state-of-the-art suggestion quality.
+
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+`ext install Codeium.codeium`
+
+[Website](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
 ### Bracket Pair Colorizer
 
 A VS Code extension that gives you a simple command to quickly toggle the global “Bracket Pair Colorization” setting added in VS Code v1.60.
